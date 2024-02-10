@@ -26,6 +26,9 @@ def calculator():
         print(multiplication(numberA, numberB))
     elif choice == 4:
         print(division(numberA, numberB))
+    else:
+        print("what did you say? Try again!")
+        continue
 
 
 calculator()
