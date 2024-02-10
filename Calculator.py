@@ -1,4 +1,3 @@
-from Calculator import addition, subtraction, multiplication, division
 """
 This is a calculator program that performs basic arithmetic operations.
 """
