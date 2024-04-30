@@ -15,7 +15,7 @@ def main():
             print("Too bad, try again.", "\nThe number should be higher" )
         else:
             print("Too bad, try again.", "\nThe number should be lower" )
-        guess = int(input("I think the number is: "))
+        guess = int(input("Then, i think the number is: "))
         counter +=1
     if num == guess:
         print("Congrats, it only took you ", counter, "tries!")
