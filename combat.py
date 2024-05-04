@@ -86,9 +86,9 @@ while p.hp > 0 and e.hp > 0:
     elif e.hp <= 0: 
         print("You Won!")
         break
-    action = int(input("\nWhat would you like to do?:   1 = ATK   2 = BLOCK   3 = heal\f"))#keeps asking 'till one dies
+    action = input("\nWhat would you like to do?:   1 = ATK   2 = BLOCK   3 = heal\f")#keeps asking 'till one dies
     while action == "" or action == " ":
         action = input("Invalid input. Please enter a valid action: ")
-
+    action = int(action)
     choice = random.randint(1, 3)#random choice everytime
     e.choice = choice
